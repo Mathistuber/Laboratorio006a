@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Laboratorio006.LabCalculos.Lab007;
+using Laboratorio006.LabCalculos;
 
 namespace Laboratorio006
 {
@@ -18,7 +18,7 @@ namespace Laboratorio006
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaPrincipal());
+            Application.Run(new MenuPrincipal());
         }
     }
 }

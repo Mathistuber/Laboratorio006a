@@ -46,6 +46,7 @@ namespace Laboratorio006.LabCalculos.Lab006
             // lblValor1
             // 
             this.lblValor1.AutoSize = true;
+            this.lblValor1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblValor1.Location = new System.Drawing.Point(79, 83);
             this.lblValor1.Name = "lblValor1";
             this.lblValor1.Size = new System.Drawing.Size(42, 15);
@@ -55,6 +56,7 @@ namespace Laboratorio006.LabCalculos.Lab006
             // lblValor2
             // 
             this.lblValor2.AutoSize = true;
+            this.lblValor2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblValor2.Location = new System.Drawing.Point(79, 133);
             this.lblValor2.Name = "lblValor2";
             this.lblValor2.Size = new System.Drawing.Size(42, 15);
@@ -64,6 +66,7 @@ namespace Laboratorio006.LabCalculos.Lab006
             // lblValor3
             // 
             this.lblValor3.AutoSize = true;
+            this.lblValor3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblValor3.Location = new System.Drawing.Point(79, 183);
             this.lblValor3.Name = "lblValor3";
             this.lblValor3.Size = new System.Drawing.Size(42, 15);
@@ -76,7 +79,7 @@ namespace Laboratorio006.LabCalculos.Lab006
             this.lblResultado.Font = new System.Drawing.Font("Sylfaen", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblResultado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblResultado.ImageKey = "(nenhum)";
-            this.lblResultado.Location = new System.Drawing.Point(79, 272);
+            this.lblResultado.Location = new System.Drawing.Point(79, 275);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(191, 99);
             this.lblResultado.TabIndex = 3;
@@ -84,6 +87,8 @@ namespace Laboratorio006.LabCalculos.Lab006
             // 
             // nudValor1
             // 
+            this.nudValor1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nudValor1.ForeColor = System.Drawing.SystemColors.Window;
             this.nudValor1.Location = new System.Drawing.Point(150, 81);
             this.nudValor1.Name = "nudValor1";
             this.nudValor1.Size = new System.Drawing.Size(120, 23);
@@ -91,6 +96,8 @@ namespace Laboratorio006.LabCalculos.Lab006
             // 
             // nudValor3
             // 
+            this.nudValor3.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nudValor3.ForeColor = System.Drawing.SystemColors.Window;
             this.nudValor3.Location = new System.Drawing.Point(150, 181);
             this.nudValor3.Name = "nudValor3";
             this.nudValor3.Size = new System.Drawing.Size(120, 23);
@@ -98,6 +105,8 @@ namespace Laboratorio006.LabCalculos.Lab006
             // 
             // nudValor2
             // 
+            this.nudValor2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nudValor2.ForeColor = System.Drawing.SystemColors.Window;
             this.nudValor2.Location = new System.Drawing.Point(150, 131);
             this.nudValor2.Name = "nudValor2";
             this.nudValor2.Size = new System.Drawing.Size(120, 23);
@@ -105,12 +114,14 @@ namespace Laboratorio006.LabCalculos.Lab006
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(136, 230);
+            this.btnCalcular.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCalcular.Font = new System.Drawing.Font("Segoe UI Black", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.btnCalcular.Location = new System.Drawing.Point(140, 227);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 8;
             this.btnCalcular.Text = "Calcular";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // TelaPrincipal
